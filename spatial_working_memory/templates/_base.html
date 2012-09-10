@@ -2,6 +2,67 @@
 <html>
   <head>
     <title>{% block title %}{% endblock %}</title>
+
+    <style type="text/css">
+    html {
+      background-color: black;
+      color: white;
+    }
+
+    .highlight {
+      background-color: white;
+    }
+
+    #game>div {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      font-size: 95px;
+      background-color: #222;
+    }
+    #s1 {
+      top: 100px;
+      left: 100px;
+    }
+    #s2 {
+      top: 100px;
+      left: 250px;
+    }
+    #s3 {
+      top: 100px;
+      left: 400px;
+    }
+    #s4 {
+      top: 250px;
+      left: 100px;
+    }
+    #s5 {
+      top: 250px;
+      left: 400px;
+    }
+    #s6 {
+      top: 400px;
+      left: 100px;
+    }
+    #s7 {
+      top: 400px;
+      left: 250px;
+    }
+    #s8 {
+      top: 400px;
+      left: 400px;
+    }
+    #fixation {
+      top: 250px;
+      left: 250px;
+      text-align: center;
+    }
+
+    #fixation div {
+      position: relative;
+      top: 3px;
+    }
+    </style>
   </head>
   <body>
     <section id="content">
